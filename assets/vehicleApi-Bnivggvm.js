@@ -1,1 +1,0 @@
-import{b as a}from"./index-B6J_R0fX.js";const i={async list(e){return a({action:"vehicle.list",payload:e||{}})},async get(e){return a({action:"vehicle.get",payload:{vehicleId:e.trim()}})},async create(e){return a({action:"vehicle.create",payload:e})},async update(e,t){return a({action:"vehicle.update",payload:{vehicleId:e.trim(),...t}})}};export{i as v};
