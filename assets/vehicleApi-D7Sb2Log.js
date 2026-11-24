@@ -1,1 +1,0 @@
-import{b as a}from"./index-CKz9lfgt.js";const i={async list(e,t){return a({action:"vehicle.list",payload:e||{},onCachedData:t})},async get(e){return a({action:"vehicle.get",payload:{vehicleId:e.trim()}})},async create(e){return a({action:"vehicle.create",payload:e})},async update(e,t){return a({action:"vehicle.update",payload:{vehicleId:e.trim(),...t}})}};export{i as v};
